@@ -10,7 +10,7 @@
 <body>
     
     <?php 
-        $db = new PDO('mysql:host=192.168.65.138;dbname=Ex5POO', 'website', 'website');
+        $db = new PDO('mysql:host=192.168.65.138;dbname=PhpObjet', 'website', 'website');
         include "personnageExo5.php";
     
         $user1= new Personnage(1, $db);
